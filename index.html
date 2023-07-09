@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nanny Salary Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Nanny Salary Calculator</h1>
+    <form id="calculator-form">
+      <label for="start-time">Start Time:</label>
+      <input type="time" id="start-time" />
+
+      <label for="end-time">End Time:</label>
+      <input type="time" id="end-time" />
+
+      <label for="hourly-rate">Hourly Rate (€):</label>
+      <input type="number" id="hourly-rate" min="0" />
+
+      <button type="button" id="calculate-btn">Calculate</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

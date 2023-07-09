@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('/image-from-rawpixel-id-2884107-jpeg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#calculator-form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
