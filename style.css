@@ -24,7 +24,11 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
 }
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    /* Styles */
     body {
         font-size: 18px;
     }
@@ -48,3 +52,4 @@ button {
         font-size: 18px;
     }
 }
+
