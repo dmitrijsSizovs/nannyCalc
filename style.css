@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
     background-image: url('https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdjExNDctYmctMDEtMi1rem93MTJwNi5qcGc.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 }
 
