@@ -11,8 +11,11 @@ document.getElementById('calculate-btn').addEventListener('click', function() {
     }
 
     const hoursWorked = (end - start) / (1000 * 60 * 60);  // Convert from ms to hours
+    var totalHours = Math.floor(((end - start) / 1000 / 60 / 60));
+    var totalMinutes = Math.floor(((end - start) / 1000 / 60) % 60);
 
     const totalSalary = hoursWorked * hourlyRate;
 
     document.getElementById('result').innerText = `Total Salary: €${totalSalary.toFixed(2)}`;
+    document.getElementById('hours').innerText = "You worked " + totalHours + " hour(s) and " + totalMinutes + " minute(s). Your salary: " + totalSalary.toFixed(3) + "€";
 });
